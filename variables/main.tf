@@ -29,3 +29,9 @@ variable "map_vars" {
         key2 = "value2"
     }
 }
+
+variable "input_vars" {
+    type = string
+    description = "plz input something here"    
+}
+
