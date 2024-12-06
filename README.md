@@ -1,1 +1,1 @@
-Terraform prctice
+Terraform practice
