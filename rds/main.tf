@@ -4,10 +4,10 @@
 
 provider "aws" {
   region = "us-east-1"
-  default_tags { 
+  default_tags {
     tags = {
-     CreatedBy = "Terraform"
-     Section = "RDS instance"
+      CreatedBy = "Terraform"
+      Section   = "RDS instance"
     }
   }
 }
