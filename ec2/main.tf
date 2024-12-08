@@ -8,7 +8,7 @@ provider "aws" {
     tags = {
      CreatedBy = "Terraform"
     }
-  }
+  } 
 }
 
 resource "aws_instance" "EC2" {
