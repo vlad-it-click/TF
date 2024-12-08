@@ -30,6 +30,22 @@ variable "map_vars" {
     }
 }
 
+variable "tuple_vars" {
+    type = tuple([ string,number,string ])
+    default = [ "apple",10,"peach" ]
+}
+
+variable "object_vars" {
+    type = object({
+      name = string
+      port = list(number)
+    })
+    default = {
+      name = "open_ports"
+      port = [ 22,80,443 ]
+    }
+}
+
 variable "input_vars" {
     type = string
     description = "plz input something here"    
